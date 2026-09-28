@@ -11,6 +11,7 @@ function executeEmergencySurfacing(string $valve, string $ballast): void
 
 echo "=== 潜水艇管制 ===\n";
 usleep(500000);
+executeEmergencySurfacing("VALVE_OPEN", "");
 // ==========================================
 // 【指示】下の1行を各自の引数に追加せよ！
 // 担当A: executeEmergencySurfacing("VALVE_OPEN", "");
